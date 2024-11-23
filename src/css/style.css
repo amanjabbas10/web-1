@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko",sans-serif;
+    scroll-behavior:smooth;
+}
+
+.nav1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 img{
+    max-width: 200px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    transition: all ease 0.3s;
+    
+}
+.nav1 a:hover{
+   color: #5cace5;
+    transform: scale(0.95);
+}
+.btn1{
+    border: none;
+    border: solid 1px black;
+    border-radius: 5px;
+    background: white;
+    width: 7rem;
+    font-size: 20px;
+    transition: all ease 0.3s;
+
+}
+.btn1:hover{
+    background:#5cace5;
+    color: white;
+    border: none;
+    transform: scale(0.95);
+}
+.btn2{
+    border: none;
+    border-radius: 5px;
+    background:#5cace5;
+    color: white;
+    width: 7rem;
+    font-size: 20px;
+    transition: all  ease 0.3s;
+}
+.btn2:hover{
+    background: white;
+    color: black;
+    border: solid 1px black;
+    transform: scale(0.95);
+}
+.background1{
+    margin-top: 8rem;
+    padding: 0 60px;
+    display: flex;
+}
+img{
+    max-width: 600px;
+}
+.background1 .background2 .background3 h1{
+    font-size: 50px;
+}
+.btn3{
+    border: none;
+    background: #5cace5;
+    border-radius: 5px;
+    width: 8rem;
+    font-size: 20px;
+    color: white;
+    transition: all ease 0.3s;
+}
+.btn4{
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+    width: 8rem;
+    font-size: 20px;
+    color: black;
+    transition: all ease 0.3s;
+    margin-left: 1rem;
+}
+.btn3:hover{
+background: white;
+color: black;
+border:1px solid black ;
+}
+.btn4:hover{
+background: #5cace5;
+color: white;
+border: none;
+}
+.hr1{
+    border: 5px double #5cace5;
+    border-radius: 5px;
+    width: 10rem;
+    margin-left: 34.3rem;
+    box-shadow: 0px 0px 10px 0px #5cace5;
+}
+
+.card{
+    margin-left: 2rem;
+    margin: 20px;
+    transition: all ease 0.3s;
+}
+.card:hover{
+border: 1px solid #5cace5;
+transform: scale(0.95);
+box-shadow: 0px 0px 10px 0px #5cace5; 
+}
+.btn-card{
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    background: #5cace5;
+    transition:all ease 0.3s;
+}
+
+.btn-a{
+    color: white;
+font-weight: 500;
+text-decoration: none;
+transition:all ease 0.3s;
+font-size: 18px;
+}
+.btn-a:hover{
+text-decoration: underline;
+}
+.about-work{
+    margin-top: 4rem;
+    margin-left: 1rem;
+    display: flex;
+}
+img{
+    border-radius: 5px;
+    max-width: 600px;
+}
+.about-work .about-w .about h2{
+    text-align: center;
+    font-size: 50px;
+}
+.about-work .about-w .about p{
+    margin-left: 10px;
+    font-size: 19px;
+}
+.btn-11{
+    border: none;
+    background: white;
+    background: #5cace5;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    width: 13%;
+    font-size: 19px;
+    box-shadow: 0px 0px 10px 0px #5cace5;
+}
+.p--1{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    width: 20%;
+    border-radius: 10px;
+    margin-left: 31.3rem;
+}
+.f-h2{
+    margin-top: 4rem;
+    margin-left: 3.3rem;
+}
+.f-img{
+    max-width: 250px;
+}
+.f-img1{
+    max-width: 233px;
+    height: 276px;
+}
+i{
+    font-size: 99px;
+    margin-left: 37rem;
+    margin-top: 3rem;
+    color:#5cace5;
+}
+.f-h3{
+    margin-left: 46.6rem;
+    margin-top: 4rem;
+}
+.f-img11{
+    max-width: 190px;
+    margin-left: 45.6rem;
+}
+
+.f-img10{
+    max-width: 300px;
+}
+.flip i{
+    transform: scaleX(-1);
+    margin-top: 1rem;
+    margin-left: 32rem;
+}
+.f-img00{
+    max-width: 250px;
+    margin-left: 5rem;
+}
+.i-12 i{
+    margin-left: 30rem;
+}
+.f-img101{
+    max-width: 250px;
+    margin-left: 52rem;
+}
+.cont-1{
+    margin-top: 5rem;
+    display: flex;
+}
+.cont-1 img{
+    max-width: 500px;
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+.cont-1 .cont-2 .cont-3 form{
+margin-left: 6rem;
+margin-top: 4rem;
+}
+form input{
+margin-top: 1rem;
+border-radius: 19px;
+padding: 10px;
+width: 45%;
+margin: 10px;
+box-shadow: 0px 0px 10px 0px #5cace5;
+border: none;
+font-size: large;
+}
+ form textarea{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow:0px 0px 10px 0px #5cace5;
+    border: none;
+    font-size: larger;
+    margin-top: 1rem;
+}
+.btn-r{
+border: none;
+background: white;
+box-shadow: 0px 0px 10px 0px #5cace5;
+width: 17%;
+font-size: 20px;
+border-radius: 10px;
+margin-top: 1rem;
+margin-left: 0.5rem;
+}
+footer{
+    margin-top: 4rem;
+    background: #5cace5;
+    box-shadow: 0px 0px 10px 0px #5cace5;
+    border-radius: 24px 24px 0px 0px;
+}
+footer img{
+    max-width: 200px;
+}
+footer a{
+    margin-left: 6rem;
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    transition: all ease 0.3s;
+}
+footer a:hover{
+    color: #505050;
+    text-decoration: underline;
+}
+.click a{
+    margin-left: 76.8rem;
+    font-size: 37px;
+    text-decoration: none;
+    border: 1px solid #5cace5;
+    border-radius: 60px;
+    color:#5cace5;
+    box-shadow: 0px 0px 8px 0px #5cace5;
+    transition: all ease 0.3s;
+}
+.click a:hover{
+    background: #5cace5;
+    color: white;
+}
